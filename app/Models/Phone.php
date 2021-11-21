@@ -5,9 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 
 
-class Contact extends Model
+class Phone extends Model
 {
-    protected $table = "contacts";
+    protected $table = "phones";
     /**
      * The attributes that are mass assignable.
      *

@@ -18,3 +18,8 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get("api/contacts", "ContactController@showAll");
+$router->post("api/contacts/add", "ContactController@add");
+$router->post("api/contacts/{contact_id}/delete", "ContactController@delete");
+$router->post("api/contacts/{contact_id}/find", "ContactController@find");
+
+$router->post("api/phones/add", "PhoneController@add");
